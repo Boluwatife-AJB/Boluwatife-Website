@@ -1,0 +1,659 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>TEST 21072020</title>
+        <style type="text/css">
+            body {
+                font-family: candara;
+                color: snow;
+                background-color: #254432;
+                font-size: 17px;
+            }
+            
+            .sermon {
+                background-color: #428b64;
+                margin: 70px;
+                padding-top: 50px;
+                padding-right: 80px;
+                padding-bottom: 50px;
+                padding-left: 80px;
+                border: double;
+                border-color: #93c592;
+                position: relative;
+
+            }
+            .heading {
+                color: seashell;
+                text-align: center;
+                margin: 10px;
+                background-color: #2f9254;
+                border-radius: 5px;
+                border: groove;
+                border-color: #93c592;
+            }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                color: oldlace;
+            }
+            th, td {
+                text-align: left;
+                padding: 8px;
+            }
+
+            tr:nth-child(even){
+                background-color: #83d37d
+            }
+            tr:nth-child(odd) {
+                background-color: #00622d;
+            }
+
+            th {
+                background-color: #4CAF50;
+                
+            }
+            .table1{
+                margin: 70px;
+                
+            } 
+            
+            .unordered {
+                background-color: #228135;
+                margin: 70px;
+                width: 20%;
+                padding: 8px;
+                float: right;
+                border: 3px solid #232f00;
+            }
+            .ordered {
+                background-color: #006400;
+                margin: 70px;
+                width: 20%;
+                padding: 8px;
+                float: left;
+                border: 3px solid #232f00;
+                
+                
+            }
+            .lagoslg {
+                border: 3px solid #27a64c;
+            }
+            img {
+                width:304px;
+                height:auto;
+                float: right;
+            }
+            .clearfix {
+                    overflow: auto;
+            }
+            .navbar ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #173620;
+                border-radius: 12px;
+            }
+
+            .navbar li {
+                float: left;
+            }
+
+            .navbar li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                
+            }
+            .navbar li a:hover:not(.active) {
+                background-color: #44944a;
+            }
+            .active {
+                background-color: #27a64c;
+                color: black;
+            }
+            footer {
+                background-color: #008856;
+                color:snow;
+                clear: both;
+                margin-left: 350px;
+                text-align: center;
+                padding: 5px;
+                width: 50%;
+           }
+            .form1 {
+                background-color: #005139;
+                border: 3px solid #2f9254;
+                border-radius: 5px;
+                margin-top, margin-bottom: 70px;
+                margin-left: 500px;
+                padding: 15px;
+                width: 25%;
+                float: center;
+            }
+            input[type=text], input[type=password], select {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                border: 3px solid #528060;
+                border-radius: 3px;
+                box-sizing: border-box;
+                font-family: Century Gothic;
+                -webkit-transition: 0.7s;
+                transition: 0.7s;
+                outline: none;
+                background-color: #9dd29c;
+            }
+
+            input[type=submit] {
+                width: 100%;
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-family: candara;
+                outline: none;
+            }
+            input[type=text], input[type=password]:focus {
+                border: 3px solid #6f947a;
+            }
+
+            input[type=submit]:hover {
+                background-color: #45a049;
+            }
+            .lagos  {
+                color: 	#80ff00;
+                font-size: 25px;
+                text-align: center;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                margin-left: 150px;
+                margin-top: 5px;
+                height: 120px;
+                width: 1000px;
+                background-image: url(Images/IMG_20200722_185918.jpg);
+                border: 3px solid #2f9254;
+                border-radius: 20px;
+            }
+            .button1 {
+                font-family: candara;
+                display: inline-block;
+                border-radius: 4px;
+                background-color: #004d33;
+                border:double;
+                border-color: grey;
+                color: snow;
+                text-align: center;
+                font-size: 30px;
+                height: 50px;
+                width: 210px;
+                transition: all 0.5s;
+                cursor: pointer;
+                margin-left: 500px;
+                margin-top: 5px;
+            }
+            .button1 span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+            }
+
+            .button1 span:after {
+                content: '»';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+            .button1:hover span{
+                padding-right: 25px;
+            }
+            .button1:hover span:after {
+                opacity: 1;
+                right: 0;
+            }
+            .btn {
+                width: 25%;
+                margin-left: 450px;
+            }
+            footer {
+                text-decoration: none;
+            }
+            .link a:hover {
+                text-decoration: underline;
+                text-decoration-color: crimson;
+            }
+            .footerLink {
+                color: seashell;
+                text-decoration: none;
+            }
+            .footerLink:hover {
+                color: gold;
+                text-decoration: underline;
+            }
+            
+            
+            
+
+        
+        
+        
+        
+        
+        
+        
+        </style>
+        
+        
+        
+        
+        
+        </head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="Test%20245.html">Home</a></li>
+            <li><a href="Test%20216.html">News</a></li>
+            <li><a href="Test%20245.html">Contact</a></li>
+            <li style="float:right"><a class="active" href="javascript.html" target="_blank">About</a></li>
+        </ul>
+    </div>
+    
+    <div class="sermon">
+    <div class="heading">
+        <h1>THEME: JESUS: THE RESURRECTION AND THE LIFE</h1>
+        <h4>TEXT: I Cor. 15:20</h4>
+        </div>    
+        
+        <p>Then shall be brought to pass the saying that is written, Death is swallowed up in victory! Death, simply considered is no more than the cessation of life – that which once living, lives no longer. But it has been the general perhaps the universal custom of mankind to personify it.</p>
+        <p>Imagination gives death a formidable appearance, aims it with a dart, sting or scythe and represents it as an active, inexorable and invincible reality. In this view, death is a great devourer, with his iron tongue.</p>
+        <p>Those who own a God and a providence and observe how unequal things are in present life, how frequently the best men fare worst, cannot doubt as to an aftertaste where everything will be set to rights.
+        What is or will become of those who have suffered many and great injuries, and have even lost their lives for this doctrine of resurrection.</p>
+        <p>Whatever the meaning may be, doubtless the apostles argument was understood by the Corinthians. And it as plain to us that Christianity would be a foolish profession, if it proposed advantage to themselves by their faithfulness to God; and to have our fruit to holiness, that our end may be everlasting life.</p>
+        <p>The Greek however, does not accept the concept of resurrection, where the spiritual was exalted over the physical body. Also prevalent teachings claimed there was no life after death.</p>
+        <p>The ignorance of the world at large that are reluctance to receive the gospel of our Lord Jesus Christ is that all who are united to Christ by faith are by His resurrection assured of their own. As through sin of the first Adam, all men became mortal, because all had from him the same sinful nature so, through the resurrection of Christ, shall all who are made to partake of the spirit, and the spiritual nature, revive and live forever.</p>
+        <p>After His death on the cross, Jesus, lay in the grave for days (Mat. 12:40). Then God raised His Son from the dead.
+        Rm. 1:4n ‘and who through the Spirit of His Holiness was declared with power to be the Son of God by His Resurrection from the dead: Jesus Christ our Lord.</p>
+        <p>And it is not in vain to wait for Him; for the mercy comes at last with abundant recompense for the delay. The hands once stretched out upon the cross, to make way for our salvation will at length be stretched forth to destroy all impenitent sinners. God shall bring down the pride of the enemies by one humbling judgment after another. With joy and praise will those entertain glad tidings of the Redeemer, who looked for him, and with a triumphant song will be glorified Saints enter into the Lord. Let them fear death who live without Christ and believe that in Christ shall never die. Jn. 11:6. Christians die not but when they please God, they are like Enoch translated unto God, Gen 5:24, their pains are but Elijah’s fiery chariot to carry them to heaven.</p>
+        <p>God choose to raise you up together with Christ to give you new life 2 Tim. 1:9,10. To give new birth 1 Pet1:3. To give new beginning 2 Cor. 5:17. To give you victory over satan 1 Jn. 4:4, 5:5,4,5. To give you authority over satan, To give power over satan. To deliver you from the past. To give you power for the present time and hope for the future.</p>
+        <p>We would triumph in this solemn and important season, we must now submit to His rule, accept His salvation, and live to His glory. Then shall we rejoice in the completion of His undertaking, that God may receive the whole glory of our salvation, that we may forever serve Him and enjoy His favour. There will be an order in the resurrection. Christ himself has been the 1st Fruit; at His coming, His redeemed people will be raised before others; at the last the wicked will rise also. Then will be raised before others; at the last the wicked will rise also. Then will be the end of this present stage of things.</p>
+        <p>Therefore, beloved brethren, be ye steadfast, unmovable, always abounding in the work of the Lord, for your labour is not in vain in the Lord.</p>
+        <p>Let us not be joined with ungodly men; but warn all around us especially children and young persons to shun evil as pestilence. Let us awake to righteousness and not sin.
+        </p>
+        <br>Alleluia Christ is Risen. He is risen indeed. Alleluia.
+    </div>
+    
+    <div class="form1">
+    <h3>Sign up for newsletters</h3>
+        <form>
+            Email Address:<br>
+                <input type="text" name="email address"><br>
+            Password:<br>
+                <input type="password" name="password"><br>
+            Country:<br>
+                <select name="Country">
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="United States of America">USA</option>
+                    <option value="Great Britian">Great Britian</option>
+                    <option value="Canada">Canda</option>
+                    <option value="Austrailia">Austrailia</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Israel">Israel</option>
+                    <option value="United Arab Emirate">UAE</option>
+                    <option value="Italy">Italy</option>
+                    <option value="France">France</option>
+                    <option value="Amsterdam">Amsterdam</option>
+                    <option value="Austria">Austria</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Poland">Poland</option>
+                    <option value="Kenya">Kenya</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Sumbit" onclick="success()">
+        </form>
+    </div>
+    
+    <br>
+    <br>
+    <div class="lagos"><h1>LAGOS: CENTRE OF EXCELLENCE</h1></div>
+     <div class="tab1">
+        <div class="unordered">
+        <div class="lagoslg">
+            <p style="margin: 5px; text-align: center;">Local Goverment Areas in Lagos</p>
+            <div class="clearfix"><img src="Images/IMG_20200601_230301.jpg"></div>
+        </div>
+        <ul>
+            <li>Agege</li>
+            <li>Ajeromi-Ifelodun</li>
+            <li>Alimosho</li>
+            <li>Amuwo-Odofin</li>
+            <li>Apapa</li>
+            <li>Badagry</li>
+            <li>Ejigbo</li>
+            <li>Epe</li>
+            <li>Eti-Osa</li>
+            <li>Ifako-Ijaiye</li>
+            <li>Ikeja</li>
+            <li>Ikorodu</li>
+            <li>Kosofe</li>
+            <li>Lagos Island</li>
+            <li>Lagos Mainland</li>
+            <li>Mushin</li>
+            <li>Oshodi-Isolo</li>
+            <li>Somolu</li>
+            <li>Surulere</li>
+            <li>Yaba</li>
+    </ul>
+    </div>
+    </div>
+    
+    <div class="tab2">
+    <div class="ordered">
+        <div class="lagoslg">
+            <p style="margin: 5px; text-align: center;">Local Goverment Areas in Lagos</p>
+            <div class="clearfix"><img src="Images/IMG_20200601_163957.jpg"></div>
+        </div>
+        
+    <ol>
+            <li>Agege</li>
+            <li>Ajeromi-Ifelodun</li>
+            <li>Alimosho</li>
+            <li>Amuwo-Odofin</li>
+            <li>Apapa</li>
+            <li>Badagry</li>
+            <li>Ejigbo</li>
+            <li>Epe</li>
+            <li>Eti-Osa</li>
+            <li>Ifako-Ijaiye</li>
+            <li>Ikeja</li>
+            <li>Ikorodu</li>
+            <li>Kosofe</li>
+            <li>Lagos Island</li>
+            <li>Lagos Mainland</li>
+            <li>Mushin</li>
+            <li>Oshodi-Isolo</li>
+            <li>Somolu</li>
+            <li>Surulere</li>
+            <li>Yaba</li>
+    </ol>
+    </div>
+    </div>
+    
+        
+    <div class="table1"><table>
+        <tr>
+            <th>State</th>
+            <th>Capital</th>
+            <th>Slogan</th>
+        
+        </tr>
+        <tr>
+            <td>Abia</td>            
+            <td>Umuahia</td>         
+            <td>God's Own state</td>
+        </tr>
+        <tr>
+            <td>Adamawa</td>         
+            <td>Yola</td>            
+            <td>Land of Beauty</td>
+        </tr>
+        <tr>
+            <td>Akwa Ibom</td>       
+            <td>Uyo</td>             
+            <td>Land of Promise</td>
+        </tr>
+        <tr>
+            <td>Anambra</td>         
+            <td>Awka</td>            
+            <td>Light of the Nation</td>
+        </tr>
+        <tr>
+            <td>Bauchi</td>          
+            <td>Bauchi</td>          
+            <td>Pearl of Tourism</td>
+        </tr>
+            <tr>
+                <td>Bayesla</td>         
+                <td>Yenagoa</td>         
+                <td>Glory of all Lands</td>
+        </tr>
+            <tr>
+                <td>Benue</td>           
+                <td>Makurdi</td>         
+                <td>Food Basket of the Nation</td>
+        </tr>
+            <tr>
+                <td>Borno</td>           
+                <td>Maiduguri</td>       
+                <td>Home of peace</td>
+        </tr>
+            <tr><td>Cross River</td>     
+                <td>Calabar</td>         
+                <td>The People's Paradise</td>
+        </tr>
+            <tr>
+                <td>Delta</td>           
+                <td>Asaba</td>           
+                <td>The Big Heart</td>
+        </tr>
+            <tr>
+                <td>Ebonyi</td>          
+                <td>Abakaliki</td>       
+                <td>Salt of the Nation</td>
+        </tr>
+            <tr>
+                <td>Edo</td>             
+                <td>Benin</td>           
+                <td>Heartbeat of the Nation</td>
+        </tr>
+            <tr>
+                <td>Ekiti</td>           
+                <td>Ado Ekiti</td>       
+                <td>Land of Honour and Integrity</td>
+        </tr>
+            <tr>
+                <td>Enugu</td>           
+                <td>Enugu</td>           
+                <td>Coal City State</td>
+        </tr>
+            <tr>
+                <td>Gombe</td>       
+                <td>Gombe</td>        
+                <td>Jewel of the Savannah</td>
+        </tr>
+            <tr>
+                <td>Imo</td>         
+                <td>Owerri</td>     
+                <td>Eastern Heartland</td>
+        </tr>
+            <tr>
+                <td>Jigawa</td>     
+                <td>Dutse</td>       
+                <td>The New World</td>
+        </tr>
+            <tr>
+                <td>Kaduna</td>      
+                <td>Kaduna</td>      
+                <td>Centre of Learning</td>
+        </tr>
+            <tr>
+                <td>Kano</td>        
+                <td>Kano</td>            
+                <td>Centre of Commerce</td>
+        </tr>
+            <tr>
+                <td>Kastina</td>      
+                <td>Kastina</td>      
+                <td>Home of Hospitality</td>
+        </tr>
+            <tr>
+                <td>Kebbi</td>        
+                <td>Bini Kebbi</td>   
+                <td>Land of Equity</td>
+        </tr>
+            <tr>
+                <td>Kogi</td>         
+                <td>Lokoja</td>       
+                <td>The confluence State</td>
+        </tr>
+            <tr>
+                <td>Kwara</td>       
+                <td>Ilorin</td>      
+                <td>State of Harmony</td>
+        </tr>
+            <tr>
+                <td>Lagos</td>      
+                <td>Ikeja</td>      
+                <td>Centre of Excellence</td>
+        </tr>
+            <tr>
+                <td>Nasarawa</td>     
+                <td>Lafia</td>        
+                <td>Home of Solid Minerals</td>
+        </tr>
+            <tr>
+                <td>Niger</td>      
+                <td>Minna</td>      
+                <td>The Power State</td>
+        </tr>
+            <tr>
+                <td>Ogun</td>       
+                <td>Abeokuta</td>   
+                <td>Gateway State</td>
+        </tr>
+            <tr>
+                <td>Ondo</td>       
+                <td>Akure</td>      
+                <td>Sunshine State</td>
+        </tr>
+            <tr>
+                <td>Osun</td>        
+                <td>Osogbo</td>      
+                <td>Land of Virtue</td>
+        </tr>
+            <tr>
+                <td>Oyo</td>         
+                <td>Ibadan</td>      
+                <td>Pace Setter State</td>
+        </tr>
+            <tr>
+                <td>Plateau</td>      
+                <td>Jos</td>          
+                <td>Home of Peace of Tourism</td>
+        </tr>
+            <tr>
+                <td>Rivers</td>      
+                <td>Port Harcourt</td>  
+                <td>Treasure Base of the Nation</td>
+        </tr>
+            <tr>
+                <td>Sokoto</td>      
+                <td>Sokoto</td>      
+                <td>Seat of the Caliphate</td>
+        </tr>
+            <tr>
+                <td>Taraba</td>     
+                <td>Jalingo</td>    
+                <td>Nature's Gift of the Nation</td>
+        </tr>
+            <tr>
+                <td>Yobe</td>       
+                <td>Damaturu</td>   
+                <td>Pride of the Sahel</td>
+        </tr>
+            <tr>
+                <td>Zamfara</td>    
+                <td>Gusau</td>       
+                <td>Farming is Our Pride</td>
+        </tr>
+            <tr>
+                <td>FCT</td>  
+                <td>Abuja</td> 
+                <td>Centre of Unity</td>
+        </tr>     
+    </table>
+    </div>
+    
+        <ul class="food">
+            <li class="guy">Bread</li>
+            <li class="guy">Milk</li>
+            <li class="guy">Rice</li>
+            <li class="guy">Water</li>
+            <li class="guy">Beans</li>
+    </ul>
+        <button onclick="function1()">Try this!</button>
+       <p>Source: Wikipedia</p> 
+    <div  class="btn">
+        <form action="Webby.html" >
+            <input type="submit" value="Sumbit">
+        </form>
+    </div>
+    
+    
+    
+        <p><button class="button1" onclick="myFunction()" style="vertical-align:middle"><span>Click Me!</span></button></p>
+        <a style="text-decoration: none;" href="https://google.com" class="button1">Go to Google</a>
+        <br>
+        <hr>
+        <h3>JavaScript section</h3>
+            <p class="text">This is a paragraph</p>
+        <hr style="border: 2px double #457725">
+            <div class="link">
+                <footer>&copy; <a class="footerLink" href="index.html" target="_blank">back to home page</a></footer>
+        </div>
+        
+    
+    
+    
+    
+    
+    <script type="text/javascript">
+        alert("Welcome!");
+        function myFunction() {
+            alert('How are you doing?')
+        }
+        function success() {
+            alert ('Saved Succefully :)')
+        }
+        function function1() {
+            var list = document.getElementsByClassName("food") [0];
+            list.getElementsByClassName("guy")[0].innerHTML =  "Water"
+        }
+        document.querySelector("p.text").innerHTML = "This is not a paragraph"; 
+        
+    
+    
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+
+
+
+</html>

@@ -1,0 +1,225 @@
+.top-container {
+    color: #05684f;
+    position: relative;
+    background-color: #08d9d6;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    text-align: center;
+    background-color: #08d9d6c9;
+    margin: 0;
+    color:  #112D4E;
+    font-size: 100%;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    font-weight: normal;
+    margin: 50px auto 0 auto;
+    font-family: Lucida Handwriting;
+    font-size: 2.8125rem;
+    color:  #05684f;
+}
+h2 {
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+    font-weight: normal;
+    line-height: 2;
+}
+h3 {
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span {
+    text-decoration: underline;
+}
+.cloud1 {
+    position: relative;
+    left: 489px;
+    top: 264px;
+}
+.cloud2 {
+    position: absolute;
+    left: 98px;
+    top: 92px;
+}
+.cloud3 {
+    position: absolute;
+    bottom: 236px;
+    left: 362px;
+    
+}
+
+
+.skill-img1 {
+    
+    width: 25%;
+    border-radius: 80%;
+    float: left;
+    margin-right: 30px;
+    
+}
+.skill-img2 {
+    width: 25%;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+
+
+hr {
+    border-color: gray;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 14px;
+    width: 9%;
+    
+
+}
+.flaticon {
+    border-radius: 100%;
+    height: 231px;
+    width: 231px;
+}
+.socials {
+    height: 10%;
+    width: 10%;
+    border-radius: 100%;
+}
+.skill-row {
+    line-height: 2;
+    text-align: left;
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+}
+.navbar {
+    position: relative;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: teal;
+    border-radius: 12px;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    
+}
+.navbar li a:hover:not(.active) {
+    background-color: #112d4e;
+    color: darkkhaki;
+}
+.form1 {
+    background-color: #1c88af;
+    border: 3px solid #0e394e;
+    border-radius: 5px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 500px;
+    padding: 15px;
+    width: 25%;
+    float: center;
+}
+.Contactdetail {
+    width: 34%;
+    text-align: center;
+    position: relative;
+    left: 464px;
+}
+
+
+input[type=text], input[type=password], input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #125370;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-family: Century Gothic;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+    outline: none;
+    background-color: #a7eefc;
+    font-size: 16px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #0074a1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-family: candara;
+    outline: none;
+    font-size: 18px;
+}
+input[type=text], input[type=password]:focus {
+    border: 3px solid #7cf6ff;
+}
+
+input[type=submit]:hover {
+    background-color: #08eedb
+}
+.bible {
+    background-color: #1c88af;
+    border: 3px solid #0e394e;
+    border-radius: 5px;
+    margin: auto;
+    padding: 15px;
+    width: 900px;
+}
+.middle-container {
+    margin-bottom: 10%;
+}
+.bottom-container {
+    padding-top: 60px;
+    background-color: #00989a;
+    height: 60%;
+    margin-bottom: 0;
+    color: beige;
+}
+.btmcontent {
+    word-spacing: 20px;
+}
+.button {
+    color: white;
+}
+.contact-me-button {
+    width: 12%;
+    background-color: #0074a1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-family: candara;
+    outline: none;
+    font-size: 18px;
+}
